@@ -7,9 +7,11 @@ import { Route, Routes } from "react-router-dom";
 import SignIn from "./Components/SignIn";
 import SignUp from "./Components/SignUp";
 import { auth } from "./firebase";
+
 import { onAuthStateChanged, signOut } from "firebase/auth";
 import ForgotPassword from "./Components/ForgotPassword";
 function App() {
+  // logOut functionality
   const [currentUser, setCurrentUser] = useState(null);
   const logOut = async () => {
     try {
