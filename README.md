@@ -12,4 +12,4 @@ Movie Lens is an interactive platform that allows users to browse, search, and e
 ## Deployment
 The project is live and can be accessed using the following link:
 
-[Movie Lens Deployment Link](https://your-deployment-link.vercel.app)
+[Movie Lens Deployment Link](https://movie-lens-5a5m.vercel.app/)
